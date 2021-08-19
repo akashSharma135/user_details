@@ -16,7 +16,6 @@ function App() {
   useEffect(() => {
     const fetchUsers = async () => {
       setLoading(true);
-      console.log(currentPage);
       const res = await axios.get(
         `https://reqres.in/api/users?page=${currentPage}`
       );
