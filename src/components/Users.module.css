@@ -1,0 +1,17 @@
+.list {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    background-color: gray;
+    padding: 1rem;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr td:nth-child(odd) {
+    background-color: rgb(218, 213, 213);
+}

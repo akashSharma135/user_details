@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.previous,
+.next {
+  font-size: 4rem;
+  color: rgb(35, 110, 139);
+  cursor: pointer;
+}
+
+.previous:hover {
+    font-size: 4.5rem;
+}
+
+.next:hover {
+    font-size: 4.5rem;
+}
+
+#hide {
+    display: none;
+}
+
